@@ -5,6 +5,7 @@ __pycache__/
 code_store/
 storage/
 tensorboard/
+sample_runs/
 tb_events/
 data/
 models/
