@@ -1,16 +1,30 @@
 # RL for Predictive Maintenance
 
 ## Implementation Notes
+
+### Working PHM settings
 ```
 1. ALGO = 'PPO'
 2. EARLY_DETECT_FACTOR = -0.125
 3. r1 = 1; r2 = -4; r3 = -0.5
 4. SAMPLING_RATE = 25
-5. EPISODES = 300 k for C01, 200 k for NUAA W1
-6. ADD_NOISE = 5*1e2
-7. MAX_EPISODE_STEPS_FACTOR = 10 # MAX_EPISODE_STEPS = MAX_EPISODE_STEPS_FACTOR*records
+5. EPISODES = 200 k  # ** For C06 Most repeatable** runs.
+6. ADD_NOISE = 5*1e2 = 500
+7. MAX_EPISODE_STEPS_FACTOR = 10 
 8. BATCH_SIZE = 16
 ```
+
+### Working NUAA settings
+```
+1. EARLY_DETECT_FACTOR = -0.125
+2. r1 = 2; r2 = -4; r3 = -0.5
+3. Tried for NUAA W1
+4. ADD_NOISE = 5*1e2
+5. SAMPLING_RATE = 25
+6. EPISODES = 200_000
+```
+
+## Most repeatable implementation: PHM_C06, with settings above
 
 ## What we have
 1. Trained PdM agent: "Agent_PHM_C01" implies trained on C01
