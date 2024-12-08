@@ -27,12 +27,13 @@
 1. Trained model agents: C01
 2. Show C01 Tool wear data - normal
 3. Show with noise - Mention for robustness
-4. Evaluate on C04 and C08
+4. Evaluate on C04 and C06
 5. **Refresh untill reasonable REPLACEMENT**
 6. Attempt an evaluation on NUAA W1
-7. Repeat with C04 on rest i.e. C01 and C08 etc.
-**Visualizations**:
+7. Repeat with C04 on rest i.e. C01 and C06 etc.
+   
+## Visualizations:
 9. Tool wear plot normal and with noise 
-10. Tensorboard reward learning curve - self explainable
+10. *TRANSFERABILITY*: Tensorboard reward learning multiple curves (C01, C04, C06) - self explainable
 11. Tool replacement time reduction - self explainable
 12. RUL improvement - will need explaining so show last 
