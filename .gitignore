@@ -8,7 +8,6 @@ tensorboard/
 sample_runs/
 tb_events/
 data/
-models/
 results/
 *.bat
 *.ini
